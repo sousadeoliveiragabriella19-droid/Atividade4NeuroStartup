@@ -37,9 +37,9 @@ Aluno:Gabriella Sousa de Oliveira RA:2869704 Turma:BCC
 ### 3. Resultado no teste (cofre)
 | Modelo | Validação | Teste |
 |---|---|---|
-| Regressão logística (baseline) | 84,5%|
-| Árvore de decisão (bônus) | 80,9% |
-| **Rede neural** |89%|
+| Regressão logística (baseline) | 85,2%|84,2%
+| Árvore de decisão (bônus) | 80,5% |80,9%
+| **Rede neural** |88,7%|89%
 
 A rede foi 4,5 pontos percentuais melhor que o baseline no teste. Pela matriz de confusão, os maiores erros aconteceram entre categorias de roupas visualmente semelhantes, como camiseta, camisa, pulôver e casaco, como esperávamos pela foto média.
 
