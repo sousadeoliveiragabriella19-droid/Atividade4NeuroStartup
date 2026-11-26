@@ -28,11 +28,11 @@ Aluno:Gabriella Sousa de Oliveira RA:2869704 Turma:BCC
 **Experimentos (`experimentos.csv`):**
 | Tentativa | Neurônios | Dropout | Épocas | Acurácia validação |
 |---|---|---|---|---|
-| 1 | 64 | 0.0 | 87,9%% |
-| 2 | 128 | 0.2 | 88,6% |
-| 3 | 256 | 0.3 | 88,7%
+| 1 | 64 | 0.0 | 20 | 87,9%
+| 2 | 128 | 0.2 | 18 | 88,6%
+| 3 | 256 | 0.3 | 18 | 88,7%
 
-**Melhor rede:** tentativa ___. Nas curvas de aprendizado, a perda da validação parou de cair por volta da época ___, e o early stopping parou o treino ali.
+**Melhor rede:** tentativa 3. Nas curvas de aprendizado, a perda da validação parou de cair por volta da época 18, e o early stopping parou o treino ali.
 
 ### 3. Resultado no teste (cofre)
 | Modelo | Validação | Teste |
@@ -41,9 +41,9 @@ Aluno:Gabriella Sousa de Oliveira RA:2869704 Turma:BCC
 | Árvore de decisão (bônus) | 80,9% |
 | **Rede neural** |89%|
 
-A rede foi ___ pontos percentuais melhor que o baseline no teste. Pela matriz de confusão, os maiores erros aconteceram entre ___ e ___, como esperávamos pela foto média.
+A rede foi 4,5 pontos percentuais melhor que o baseline no teste. Pela matriz de confusão, os maiores erros aconteceram entre categorias de roupas visualmente semelhantes, como camiseta, camisa, pulôver e casaco, como esperávamos pela foto média.
 
-> **Frase de negócio:** a cada 1.000 produtos cadastrados, nosso modelo acerta a categoria de ___ sozinho, contra ___ do modelo simples. São ___ produtos a menos para corrigir na mão.
+«Frase de negócio: a cada 1.000 produtos cadastrados, nosso modelo acerta a categoria de aproximadamente 890 sozinho, contra 845 do modelo simples. São 45 produtos a menos para corrigir na mão.»
 
 ### 4. Produto
 - Modelo salvo em `modelo_fashion.keras`, que pode ser carregado sem treinar de novo.
